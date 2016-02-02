@@ -1,6 +1,6 @@
 {
   "name": "redrum",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "real-user performance measurement library",
   "main": "index.js",
   "scripts": {
