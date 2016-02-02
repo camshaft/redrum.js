@@ -48,7 +48,7 @@ Redrum.prototype = {
     this._emitter.emit('sample', name, value, this._inherit(data));
   },
   profile: function(name, initialData, absolute) {
-    var begin = absolute ? now() : 0;
+    var begin = absolute ? 0 : now();
     return function profile(data) {
       if (begin === false) return;
       this.measure(name, Math.floor(now() - begin), 'ms', assign({}, initialData, data));
