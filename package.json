@@ -1,5 +1,5 @@
 {
-  "name": "redrum.js",
+  "name": "redrum",
   "version": "1.0.0",
   "description": "real-user performance measurement library",
   "main": "index.js",
